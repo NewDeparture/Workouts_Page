@@ -86,9 +86,7 @@ class Coros:
 
     async def download_activity(self, label_id):
         download_folder = FIT_FOLDER
-        download_url = (
-            f"{COROS_URL_DICT.get('DOWNLOAD_URL')}?labelId={label_id}&fileType=4"
-        )
+        download_url = f"{COROS_URL_DICT.get('DOWNLOAD_URL')}?labelId={label_id}&sportType=100&fileType=4"
         file_url = None
         try:
             response = await self.req.post(download_url)
