@@ -18,7 +18,7 @@ const data: ISiteMetadataResult = {
   keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
   navLinks: [
     {
-      name: 'Blog',
+      name: 'Code',
       url: 'https://github.com/ben-29/workouts_page',
     },
     {
