@@ -11,7 +11,7 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'LYX\' Workouts Map',
+  siteTitle: 'LYX\'S Workouts Map',
   siteUrl: 'https://newdeparture.github.io/Workouts_Page/',
   logo: 'https://img.picgo.net/2025/03/17/Anime026e152421d44d6a.md.jpg',
   description: 'Personal site and blog',
