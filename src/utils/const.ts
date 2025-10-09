@@ -31,20 +31,20 @@ const USE_GOOGLE_ANALYTICS = false;
 const GOOGLE_ANALYTICS_TRACKING_ID = '';
 
 // styling: set to `true` if you want dash-line route
-const USE_DASH_LINE = false;
+const USE_DASH_LINE = true;
 // styling: route line opacity: [0, 1]
 const LINE_OPACITY = 0.6;
 // styling: map height - responsive design
 // Use smaller height on mobile devices for better user experience
 const MAP_HEIGHT = window.innerWidth <= 768 ? 250 : 600;
 //set to `false` if you want to hide the road label characters
-const ROAD_LABEL_DISPLAY = true;
+const ROAD_LABEL_DISPLAY = false;
 // updated on 2024/11/17: privacy mode is set to true by default
 //set to `true` if you want to display only the routes without showing the map.
 const PRIVACY_MODE = false;
 // updated on 2024/11/17: lights are turned off by default
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
-const LIGHTS_ON = false;
+const LIGHTS_ON = true;
 //set to `true` if you want to show the 'Elevation Gain' column
 const SHOW_ELEVATION_GAIN = true;
 // richer title for the activity types (like garmin style)
