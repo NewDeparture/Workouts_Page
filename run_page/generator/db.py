@@ -37,6 +37,7 @@ ACTIVITY_KEYS = [
     "distance",
     "moving_time",
     "type",
+    "subtype",          # 👈 加在这里，这样 frontend/SVG 导出时才能拿到 subtype
     "start_date",
     "start_date_local",
     "location_country",
@@ -57,6 +58,7 @@ class Activity(Base):
     moving_time = Column(Interval)
     elapsed_time = Column(Interval)
     type = Column(String)
+    subtype = Column(String)  # 👈 添加这一行，类型为 String
     start_date = Column(String)
     start_date_local = Column(String)
     location_country = Column(String)
