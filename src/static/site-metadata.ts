@@ -16,20 +16,17 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Workouts Map',
-  siteUrl: 'https://ben29.xyz',
-  logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
-  description: 'Personal site and blog',
+  siteTitle: 'LYX\'S Workouts Map',
+  siteUrl: 'https://newdeparture.github.io/workouts_page/',
+  logo: 'https://pic1.imgdb.cn/item/6a46521c0e2237bfad5c572a.jpg',
+  description: 'Personal Workouts Log',
   keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
   navLinks: [
     {
       name: 'Summary',
       url: `${getBasePath()}/summary`,
     },
-    {
-      name: 'Blog',
-      url: 'https://ben29.xyz',
-    },
+    
     {
       name: 'About',
       url: 'https://github.com/ben-29/workouts_page/blob/master/README-CN.md',
